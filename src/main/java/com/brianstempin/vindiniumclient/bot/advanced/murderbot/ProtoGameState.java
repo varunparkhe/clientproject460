@@ -18,7 +18,7 @@ public class ProtoGameState {
   private Map<GameState.Hero, Integer> heroesByMineCount;
   private final GameState.Hero me;
 
-
+  
   public ProtoGameState(GameState gameState) {
     boardGraph = new HashMap<>();
     mines = new HashMap<>();
